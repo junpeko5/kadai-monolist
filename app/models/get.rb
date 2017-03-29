@@ -1,0 +1,2 @@
+class Get < Ownership
+end

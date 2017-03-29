@@ -22,5 +22,6 @@ class ItemsController < ApplicationController
   def show
     @item = Item.find(params[:id])
     @want_users = @item.want_users
+    @get_users = @item.get_users
   end
 end
