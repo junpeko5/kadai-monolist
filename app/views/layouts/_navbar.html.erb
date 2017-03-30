@@ -28,7 +28,13 @@
                 <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
-                <li><%= link_to 'Wantランキング', rankings_want_path %></li>
+                <li>
+                  <%= link_to 'Wantランキング', rankings_want_path %>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <%= link_to 'Haveランキング', rankings_get_path %>
+                </li>
               </ul>
             </li>
 
